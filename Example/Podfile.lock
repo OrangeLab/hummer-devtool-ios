@@ -1,0 +1,49 @@
+PODS:
+  - HMDevTools (0.1.0):
+    - Hummer
+  - Hummer (0.2.4):
+    - Hummer/Core (= 0.2.4)
+  - Hummer/Core (0.2.4):
+    - SocketRocket (~> 0.1)
+    - Yoga (~> 1.14)
+  - SocketRocket (0.5.1)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - HMDevTools (from `../`)
+  - "Hummer (from `git@git.xiaojukeji.com:OrangeLabs/Hummer/hummer-ios.git`)"
+  - "SocketRocket (from `git@git.xiaojukeji.com:tangjiacheng/SocketRocket.git`, branch `0.5.1_patch`)"
+  - "Yoga (from `git@git.xiaojukeji.com:tangjiacheng/yoga.git`, branch `1.18.0_ng_patch`)"
+
+EXTERNAL SOURCES:
+  HMDevTools:
+    :path: "../"
+  Hummer:
+    :git: "git@git.xiaojukeji.com:OrangeLabs/Hummer/hummer-ios.git"
+  SocketRocket:
+    :branch: 0.5.1_patch
+    :git: "git@git.xiaojukeji.com:tangjiacheng/SocketRocket.git"
+  Yoga:
+    :branch: 1.18.0_ng_patch
+    :git: "git@git.xiaojukeji.com:tangjiacheng/yoga.git"
+
+CHECKOUT OPTIONS:
+  Hummer:
+    :commit: a73532ba55055b77e619093d49119204b30476db
+    :git: "git@git.xiaojukeji.com:OrangeLabs/Hummer/hummer-ios.git"
+  SocketRocket:
+    :commit: a11d542c06f6b251d2afd3f1c27a91a9db261107
+    :git: "git@git.xiaojukeji.com:tangjiacheng/SocketRocket.git"
+  Yoga:
+    :commit: c0918b8c4d7f4adb748da82ca5467510aaa5959a
+    :git: "git@git.xiaojukeji.com:tangjiacheng/yoga.git"
+
+SPEC CHECKSUMS:
+  HMDevTools: b4a816f5a95dd3ab6731cf078438c20ba167f693
+  Hummer: c726b080b20cb41a86da706d7c736750a8a639c3
+  SocketRocket: 0c90488cba1f5d26bd50657c0e65eabbf205f6e3
+  Yoga: 385f2b41b709c0710301e2df1f7d8886455ca850
+
+PODFILE CHECKSUM: 2fe1c3bc9a8318153507d83e09c79779814e8c98
+
+COCOAPODS: 1.11.2

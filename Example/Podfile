@@ -1,0 +1,16 @@
+#use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HMDevTools_Example' do
+  pod 'HMDevTools', :path => '../'
+  pod 'Hummer', :git =>'git@git.xiaojukeji.com:OrangeLabs/Hummer/hummer-ios.git'
+  pod 'SocketRocket', :git => 'git@git.xiaojukeji.com:tangjiacheng/SocketRocket.git', :branch => '0.5.1_patch'
+  pod 'Yoga', :git => 'git@git.xiaojukeji.com:tangjiacheng/yoga.git', :branch => '1.18.0_ng_patch'
+
+  target 'HMDevTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

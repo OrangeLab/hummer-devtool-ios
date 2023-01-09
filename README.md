@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/HMDevTools.svg?style=flat)](https://cocoapods.org/pods/HMDevTools)
 [![Platform](https://img.shields.io/cocoapods/p/HMDevTools.svg?style=flat)](https://cocoapods.org/pods/HMDevTools)
 
+[Hummer调试工具](https://github.com/didi/Hummer)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -22,7 +22,7 @@ pod 'HMDevTools'
 
 ## Author
 
-1486662452@qq.com, hishiguangyuan@didiglobal.com
+[yFeii](https://github.com/yFeii)
 
 ## License
 

@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # }
   s.dependency 'Hummer'
   s.xcconfig = {
-    "GCC_PREPROCESSOR_DEFINITIONS" => '$(inherited) HMDEVTOOLS=1'
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) HMDEVTOOLS=1",
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
 end
